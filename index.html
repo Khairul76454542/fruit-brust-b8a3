@@ -187,6 +187,151 @@
           </div>
       </section>
   </header>
+  <!-- card section -->
+  <body class="w-[1440px] mx-auto">
+    <section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="bg-base-500">
+          <img src="images/fruit1.png" alt="Shoes" />
+        </figure>
+        <div class="card-body text-center">
+          <p class="card-title justify-center font-bold">10.00$ - 12.00$</p>
+          <p>Grapes</p>
+          <div class="text-[#eb4034]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div onclick="modal_1.showModal()" class="text-[#eb4034] font-bold">
+            Details
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="bg-base-500">
+          <img src="images/fruit2.png" alt="" />
+        </figure>
+        <div class="card-body text-center">
+          <p class="card-title justify-center font-bold">10.00$ - 12.00$</p>
+          <p>Orange</p>
+          <div class="text-[#eb4034]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div onclick="modal_2.showModal()" class="text-[#eb4034] font-bold">
+            Details
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="bg-base-500">
+          <img src="images/fruit3.png" alt="Shoes" />
+        </figure>
+        <div class="card-body text-center">
+          <p class="card-title justify-center font-bold">10.00$ - 12.00$</p>
+          <p>Mango</p>
+          <div class="text-[#eb4034]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div onclick="modal_3.showModal()" class="text-[#eb4034] font-bold">
+            Details
+          </div>
+        </div>
+      </div>
+      <div class="card bg-base-100 shadow-xl">
+        <figure class="bg-base-500">
+          <img src="images/fruit4.png" alt="Shoes" />
+        </figure>
+        <div class="card-body text-center">
+          <p class="card-title justify-center font-bold">10.00$ - 12.00$</p>
+          <p>Strawberry</p>
+          <div class="text-[#eb4034]">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <div onclick="modal_4.showModal()" class="text-[#eb4034] font-bold">
+            Details
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- modal section  -->
+    <section>
+      <dialog id="modal_1" class="modal">
+        <form method="dialog" class="modal-box w-[400px] max-w-5xl">
+          <img src="images/fruit1.png" alt="Shoes" />
+          <p>Grapes</p>
+          <p>10.0$ - 12.0$</p>
+          <div class="modal-action">
+            <button class="btn border-0">Close</button>
+            <div
+              class="bg-[#eb4034] rounded-lg text-white font-bold flex items-center p-2"
+            >
+              <p>Add to cart</p>
+            </div>
+          </div>
+        </form>
+      </dialog>
+      <dialog id="modal_2" class="modal">
+        <form method="dialog" class="modal-box w-[400px] max-w-5xl">
+          <img src="images/fruit2.png" alt="Shoes" />
+          <p>Orange</p>
+          <p>10.0$ - 12.0$</p>
+          <div class="modal-action">
+            <button class="btn border-0">Close</button>
+            <div
+              class="bg-[#eb4034] rounded-lg text-white font-bold flex items-center p-2"
+            >
+              <p>Add to cart</p>
+            </div>
+          </div>
+        </form>
+      </dialog>
+      <dialog id="modal_3" class="modal">
+        <form method="dialog" class="modal-box w-[400px] max-w-5xl">
+          <img src="images/fruit3.png" alt="Shoes" />
+          <p>Mango</p>
+          <p>10.0$ - 12.0$</p>
+          <div class="modal-action">
+            <button class="btn border-0">Close</button>
+            <div
+              class="bg-[#eb4034] rounded-lg text-white font-bold flex items-center p-2"
+            >
+              <p>Add to cart</p>
+            </div>
+          </div>
+        </form>
+      </dialog>
+      <dialog id="modal_4" class="modal">
+        <form method="dialog" class="modal-box w-[400px] max-w-5xl">
+          <img src="images/fruit4.png" alt="Shoes" />
+          <p>Strawberry</p>
+          <p>10.0$ - 12.0$</p>
+          <div class="modal-action">
+            <button class="btn border-0">Close</button>
+            <div
+              class="bg-[#eb4034] rounded-lg text-white font-bold flex items-center p-2"
+            >
+              <p>Add to cart</p>
+            </div>
+          </div>
+        </form>
+      </dialog>
+    </section>
+ 
+  <!--  -->
     <section class="mt-8">
       <div
         class="hero rounded-lg"
